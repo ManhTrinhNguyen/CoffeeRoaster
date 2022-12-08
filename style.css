@@ -1,0 +1,1865 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&display=swap");
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.lists-container-2-active {
+  display: flex !important;
+  opacity: 1 !important;
+}
+
+.x-menu-active {
+  display: block !important;
+}
+
+.hamburger-menu-active {
+  display: none !important;
+}
+
+.lists-2-active {
+  display: flex !important;
+  opacity: 1 !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fraunces", serif;
+}
+body .section-1 {
+  max-width: 375px;
+  width: 90%;
+  margin: 0 auto;
+}
+body .section-1 nav {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+body .section-1 nav .brand {
+  max-width: 163px;
+  width: 100%;
+  height: 18px;
+  display: flex;
+  align-items: center;
+}
+body .section-1 nav .brand img {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+body .section-1 nav .brand h1 {
+  color: #333D4B;
+  font-size: 16px;
+}
+body .section-1 nav .lists-container {
+  display: none;
+}
+body .section-1 nav .lists-container-2 {
+  position: absolute;
+  top: 50%;
+  background: linear-gradient(180deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
+  transform: rotate(180deg);
+  margin-top: 25px;
+  width: 100%;
+  height: 577px;
+  opacity: 0;
+  transition: opacity 500ms;
+  z-index: 5;
+}
+body .section-1 nav .lists-container-2 .lists-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: rotate(180deg);
+  opacity: 0;
+}
+body .section-1 nav .lists-container-2 .lists-2 .list-2 {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+}
+body .section-1 nav .hamburger-menu {
+  cursor: pointer;
+}
+body .section-1 nav .x-menu {
+  position: absolute;
+  right: 0;
+  display: none;
+  cursor: pointer;
+}
+body .section-1 .header {
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  background: url("./assets/home/mobile/image-hero-coffeepress.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  border-radius: 10px;
+}
+body .section-1 .header .header-description {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+body .section-1 .header .header-description h1 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 900;
+  color: #FEFCF7;
+}
+body .section-1 .header .header-description p {
+  width: 279px;
+  height: 101px;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #fefcf7;
+  margin: 0 auto;
+}
+body .section-1 .header .header-description .btn {
+  width: 217px;
+  height: 56px;
+  border-radius: 7px;
+  color: #FEFCF7;
+  background-color: #0e8784;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 18px;
+  font-weight: 900;
+  font-family: "Fraunces", serif;
+}
+body .section-2 {
+  max-width: 375px;
+  height: 1321px;
+  width: 100%;
+  margin-top: 100px;
+  margin: 0 auto;
+}
+body .section-2 .collection-title {
+  width: 100%;
+  height: 72px;
+  margin: 0 auto;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+  z-index: 1;
+}
+body .section-2 .collection-title h1 {
+  font-size: 40px;
+  line-height: 72px;
+  font-weight: 900;
+  color: #838383;
+  z-index: -1;
+  position: relative;
+}
+body .section-2 .collection-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+body .section-2 .collection-container .collection {
+  text-align: center;
+}
+body .section-2 .collection-container .collection img {
+  width: 200px;
+  height: 151px;
+}
+body .section-2 .collection-container .collection .collection-description {
+  width: 282px;
+  height: 98px;
+}
+body .section-2 .collection-container .collection .collection-description h3 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 900;
+  color: #333D4B;
+}
+body .section-2 .collection-container .collection .collection-description p {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #333D4B;
+}
+body .section-3 {
+  max-width: 375px;
+  width: 90%;
+  height: 902px;
+  background-color: #2C343E;
+  margin: 0 auto;
+  margin-top: 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .section-3 .why-choose-us {
+  width: 279px;
+  margin: 0 auto;
+  position: relative;
+  top: 10%;
+}
+body .section-3 .why-choose-us h1 {
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 900;
+  text-align: center;
+  color: #FEFCF7;
+}
+body .section-3 .why-choose-us p {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  text-align: center;
+  color: #FEFCF7;
+  width: 100%;
+}
+body .section-3 .why-choose-us-containers {
+  position: relative;
+  top: 15%;
+}
+body .section-3 .why-choose-us-containers .why-choose-us-container {
+  width: 279px;
+  height: 382px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0e8784;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+body .section-3 .why-choose-us-containers .why-choose-us-container img {
+  width: 72px;
+  height: 72px;
+}
+body .section-3 .why-choose-us-containers .why-choose-us-container .description {
+  width: 80%;
+}
+body .section-3 .why-choose-us-containers .why-choose-us-container .description h3 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  color: #FEFCF7;
+  text-align: center;
+}
+body .section-3 .why-choose-us-containers .why-choose-us-container .description p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #FEFCF7;
+  text-align: center;
+}
+body .section-4 {
+  max-width: 375px;
+  width: 90%;
+  height: 1300px;
+  margin: 0 auto;
+  margin-top: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .section-4 h1 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 900;
+  text-align: center;
+  color: #83888F;
+}
+body .section-4 .line-container {
+  display: none;
+}
+body .section-4 .how-is-work-container .how-is-work-description {
+  height: 300px;
+  width: 327px;
+  margin-bottom: 50px;
+}
+body .section-4 .how-is-work-container .how-is-work-description h1 {
+  font-size: 72px;
+  line-height: 72px;
+  font-weight: 900;
+  text-align: center;
+  color: #FDD6BA;
+}
+body .section-4 .how-is-work-container .how-is-work-description h3 {
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 900;
+  text-align: center;
+}
+body .section-4 .how-is-work-container .how-is-work-description p {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+body .section-4 button {
+  width: 217px;
+  height: 56px;
+  border-radius: 7px;
+  color: #FEFCF7;
+  background-color: #0e8784;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 900;
+  font-family: "Fraunces", serif;
+}
+body .section-4 button:hover {
+  background-color: #66d2cf;
+}
+body .footer {
+  max-width: 375px;
+  width: 90%;
+  height: 346px;
+  background-color: #2C343E;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+body .footer .brand-footer {
+  width: 217px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .footer .brand-footer h1 {
+  font-size: 18px;
+  color: white;
+}
+body .footer .footer-lists {
+  width: 150px;
+  height: 93px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+body .footer .footer-lists a {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.92;
+  text-transform: uppercase;
+  color: #83888F;
+}
+body .footer .social-links {
+  width: 120px;
+  height: 24px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 575px) {
+  body .section-1 {
+    max-width: 575px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  body .section-1 nav {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  body .section-1 nav .brand {
+    max-width: 163px;
+    width: 100%;
+    height: 18px;
+    display: flex;
+    align-items: center;
+  }
+  body .section-1 nav .brand img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  body .section-1 nav .brand h1 {
+    color: #333D4B;
+    font-size: 20px;
+  }
+  body .section-1 nav .lists-container {
+    display: none;
+  }
+  body .section-1 nav .lists-container-2 {
+    position: absolute;
+    top: 50%;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
+    transform: rotate(180deg);
+    margin-top: 25px;
+    width: 100%;
+    height: 577px;
+    opacity: 0;
+    transition: opacity 500ms;
+    z-index: 5;
+  }
+  body .section-1 nav .lists-container-2 .lists-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: rotate(180deg);
+    opacity: 0;
+  }
+  body .section-1 nav .lists-container-2 .lists-2 .list-2 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+  }
+  body .section-1 nav .hamburger-menu {
+    cursor: pointer;
+  }
+  body .section-1 nav .x-menu {
+    position: absolute;
+    right: 0;
+    display: none;
+    cursor: pointer;
+  }
+  body .section-1 .header {
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    background: url("./assets/home/mobile/image-hero-coffeepress.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-radius: 10px;
+  }
+  body .section-1 .header .header-description {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  body .section-1 .header .header-description h1 {
+    margin: 0 auto;
+    width: 90%;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 900;
+    color: #FEFCF7;
+  }
+  body .section-1 .header .header-description p {
+    width: 400px;
+    height: 101px;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #fefcf7;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  body .section-1 .header .header-description .btn {
+    width: 217px;
+    height: 56px;
+    border-radius: 7px;
+    color: #FEFCF7;
+    background-color: #0e8784;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: "Fraunces", serif;
+  }
+  body .section-3 {
+    max-width: 575px;
+    width: 90%;
+    height: 902px;
+    background-color: #2C343E;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .section-3 .why-choose-us {
+    width: 279px;
+    margin: 0 auto;
+    position: relative;
+    top: 10%;
+  }
+  body .section-3 .why-choose-us h1 {
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 900;
+    text-align: center;
+    color: #FEFCF7;
+  }
+  body .section-3 .why-choose-us p {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    text-align: center;
+    color: #FEFCF7;
+    width: 100%;
+  }
+  body .section-3 .why-choose-us-containers {
+    position: relative;
+    top: 15%;
+  }
+  body .section-3 .why-choose-us-containers .why-choose-us-container {
+    width: 299px;
+    height: 382px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0e8784;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  body .section-3 .why-choose-us-containers .why-choose-us-container img {
+    width: 72px;
+    height: 72px;
+  }
+  body .section-3 .why-choose-us-containers .why-choose-us-container .description {
+    width: 80%;
+  }
+  body .section-3 .why-choose-us-containers .why-choose-us-container .description h3 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    color: #FEFCF7;
+    text-align: center;
+  }
+  body .section-3 .why-choose-us-containers .why-choose-us-container .description p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #FEFCF7;
+    text-align: center;
+  }
+  body .footer {
+    max-width: 575px;
+    width: 90%;
+    height: 346px;
+    background-color: #2C343E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  body .footer .brand-footer {
+    width: 217px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body .footer .brand-footer h1 {
+    font-size: 18px;
+    color: white;
+  }
+  body .footer .footer-lists {
+    width: 150px;
+    height: 93px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body .footer .footer-lists a {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.92;
+    text-transform: uppercase;
+    color: #83888F;
+  }
+  body .footer .social-links {
+    width: 120px;
+    height: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 768px) {
+  body .section-1 {
+    max-width: 768px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  body .section-1 nav {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  body .section-1 nav .brand {
+    max-width: 163px;
+    width: 100%;
+    height: 18px;
+    display: flex;
+    align-items: center;
+  }
+  body .section-1 nav .brand img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  body .section-1 nav .brand h1 {
+    color: #333D4B;
+    font-size: 20px;
+  }
+  body .section-1 nav .lists-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+  }
+  body .section-1 nav .lists-container .list {
+    text-transform: uppercase;
+    color: #83888F;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.92;
+  }
+  body .section-1 nav .lists-container .list:hover {
+    color: black;
+  }
+  body .section-1 nav .lists-container-2 {
+    position: absolute;
+    top: 50%;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
+    transform: rotate(180deg);
+    margin-top: 25px;
+    width: 100%;
+    height: 577px;
+    opacity: 0;
+    transition: opacity 500ms;
+    z-index: 5;
+  }
+  body .section-1 nav .lists-container-2 .lists-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: rotate(180deg);
+    opacity: 0;
+  }
+  body .section-1 nav .lists-container-2 .lists-2 .list-2 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+  }
+  body .section-1 nav .hamburger-menu {
+    cursor: pointer;
+    display: none;
+  }
+  body .section-1 nav .x-menu {
+    position: absolute;
+    right: 0;
+    display: none;
+    cursor: pointer;
+    display: none;
+  }
+  body .section-1 .header {
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    background: url("./assets/home/tablet/image-hero-coffeepress.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    border-radius: 10px;
+  }
+  body .section-1 .header .header-description {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    left: 80px;
+  }
+  body .section-1 .header .header-description h1 {
+    margin: 0;
+    width: 60%;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 900;
+    color: #FEFCF7;
+  }
+  body .section-1 .header .header-description p {
+    width: 60%;
+    height: 101px;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #fefcf7;
+    margin: 0;
+    margin-top: 20px;
+  }
+  body .section-1 .header .header-description .btn {
+    width: 217px;
+    height: 56px;
+    border-radius: 7px;
+    color: #FEFCF7;
+    background-color: #0e8784;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: 0;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: "Fraunces", serif;
+  }
+  body .section-1 .header .header-description .btn:hover {
+    background-color: #66d2cf;
+  }
+  body .section-2 {
+    max-width: 768px;
+    height: 900px;
+    width: 90%;
+    margin-top: 100px;
+    margin: 0 auto;
+  }
+  body .section-2 .collection-title {
+    width: 100%;
+    height: 118px;
+    margin: 0 auto;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+    z-index: 1;
+  }
+  body .section-2 .collection-title h1 {
+    font-size: 96px;
+    line-height: 72px;
+    font-weight: 900;
+    color: #838383;
+    z-index: -1;
+    position: relative;
+    top: 30px;
+  }
+  body .section-2 .collection-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body .section-2 .collection-container .collection {
+    text-align: center;
+    display: flex;
+  }
+  body .section-2 .collection-container .collection img {
+    width: 200px;
+    height: 151px;
+  }
+  body .section-2 .collection-container .collection .collection-description {
+    width: 282px;
+    height: 98px;
+  }
+  body .section-2 .collection-container .collection .collection-description h3 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 900;
+    color: #333D4B;
+    text-align: left;
+  }
+  body .section-2 .collection-container .collection .collection-description p {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #333D4B;
+    text-align: left;
+  }
+  body .section-3 {
+    max-width: 768px;
+    width: 90%;
+    height: 902px;
+    background-color: #2C343E;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .section-3 .why-choose-us {
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 10%;
+  }
+  body .section-3 .why-choose-us h1 {
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 900;
+    text-align: center;
+    color: #FEFCF7;
+  }
+  body .section-3 .why-choose-us p {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    text-align: center;
+    color: #FEFCF7;
+    width: 100%;
+  }
+  body .section-3 .why-choose-us-containers {
+    position: relative;
+    top: 15%;
+  }
+  body .section-3 .why-choose-us-containers .why-choose-us-container {
+    width: 573px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0e8784;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  body .section-3 .why-choose-us-containers .why-choose-us-container img {
+    width: 72px;
+    height: 72px;
+  }
+  body .section-3 .why-choose-us-containers .why-choose-us-container .description {
+    width: 60%;
+  }
+  body .section-3 .why-choose-us-containers .why-choose-us-container .description h3 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    color: #FEFCF7;
+    text-align: left;
+  }
+  body .section-3 .why-choose-us-containers .why-choose-us-container .description p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #FEFCF7;
+    text-align: left;
+  }
+  body .section-4 {
+    max-width: 768px;
+    width: 90%;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  body .section-4 h1 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 900;
+    text-align: center;
+    color: #83888F;
+  }
+  body .section-4 .line-container {
+    width: 467px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+  }
+  body .section-4 .line-container hr {
+    width: 467px;
+    border: 1px solid #fdd6ba;
+    position: absolute;
+    top: 20%;
+  }
+  body .section-4 .line-container .circle {
+    width: 31px;
+    height: 31px;
+    border: 1px solid #0e8784;
+    border-radius: 50%;
+  }
+  body .section-4 .how-is-work-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  body .section-4 .how-is-work-container .how-is-work-description {
+    height: 371px;
+    width: 223px;
+    margin-bottom: 50px;
+  }
+  body .section-4 .how-is-work-container .how-is-work-description h1 {
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: 900;
+    text-align: center;
+    color: #FDD6BA;
+  }
+  body .section-4 .how-is-work-container .how-is-work-description h3 {
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 900;
+    text-align: center;
+  }
+  body .section-4 .how-is-work-container .how-is-work-description p {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    text-align: center;
+  }
+  body .section-4 button {
+    width: 217px;
+    height: 56px;
+    border-radius: 7px;
+    color: #FEFCF7;
+    background-color: #0e8784;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: "Fraunces", serif;
+  }
+  body .section-4 button:hover {
+    background-color: #66d2cf;
+  }
+  body .footer {
+    max-width: 768px;
+    width: 90%;
+    height: 200px !important;
+    background-color: #2C343E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+  }
+  body .footer .brand-footer {
+    width: 217px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body .footer .brand-footer h1 {
+    font-size: 18px;
+    color: white;
+  }
+  body .footer .footer-lists {
+    width: 283px;
+    height: 93px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body .footer .footer-lists a {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.92;
+    text-transform: uppercase;
+    color: #83888F;
+  }
+  body .footer .footer-lists a:hover {
+    color: white;
+  }
+  body .footer .social-links {
+    width: 120px;
+    height: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body .footer .social-links i:hover {
+    opacity: 0.8;
+  }
+}
+@media screen and (min-width: 1280px) {
+  body .section-1 {
+    max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  body .section-1 nav {
+    height: 50px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  body .section-1 nav .brand {
+    max-width: 163px;
+    width: 100%;
+    height: 18px;
+    display: flex;
+    align-items: center;
+  }
+  body .section-1 nav .brand img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  body .section-1 nav .brand h1 {
+    color: #333D4B;
+    font-size: 40px;
+    line-height: 20px;
+  }
+  body .section-1 nav .lists-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+  }
+  body .section-1 nav .lists-container .list {
+    text-transform: uppercase;
+    color: #83888F;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.92;
+  }
+  body .section-1 nav .lists-container .list:hover {
+    color: black;
+  }
+  body .section-1 nav .lists-container-2 {
+    position: absolute;
+    top: 50%;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
+    transform: rotate(180deg);
+    margin-top: 25px;
+    width: 100%;
+    height: 577px;
+    opacity: 0;
+    transition: opacity 500ms;
+    z-index: 5;
+  }
+  body .section-1 nav .lists-container-2 .lists-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: rotate(180deg);
+    opacity: 0;
+  }
+  body .section-1 nav .lists-container-2 .lists-2 .list-2 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+  }
+  body .section-1 nav .hamburger-menu {
+    cursor: pointer;
+    display: none;
+  }
+  body .section-1 nav .x-menu {
+    position: absolute;
+    right: 0;
+    display: none;
+    cursor: pointer;
+    display: none;
+  }
+  body .section-1 .header {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    background: url("./assets/home/desktop/image-hero-coffeepress.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    border-radius: 10px;
+  }
+  body .section-1 .header .header-description {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    left: 80px;
+  }
+  body .section-1 .header .header-description h1 {
+    margin: 0;
+    width: 60%;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 900;
+    color: #FEFCF7;
+  }
+  body .section-1 .header .header-description p {
+    width: 60%;
+    height: 101px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #fefcf7;
+    margin: 0;
+    margin-top: 20px;
+  }
+  body .section-1 .header .header-description .btn {
+    width: 217px;
+    height: 56px;
+    border-radius: 7px;
+    color: #FEFCF7;
+    background-color: #0e8784;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: 0;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: "Fraunces", serif;
+  }
+  body .section-1 .header .header-description .btn:hover {
+    background-color: #66d2cf;
+  }
+  body .section-2 {
+    max-width: 1280px;
+    height: 400px;
+    width: 90%;
+    margin-top: 100px;
+    margin: 0 auto;
+  }
+  body .section-2 .collection-title {
+    width: 100%;
+    height: 196px;
+    margin: 0 auto;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+    z-index: 1;
+  }
+  body .section-2 .collection-title h1 {
+    font-size: 150px;
+    line-height: 72px;
+    font-weight: 900;
+    color: #838383;
+    z-index: -1;
+    position: relative;
+    top: 30px;
+    letter-spacing: 10px;
+  }
+  body .section-2 .collection-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 5;
+    position: relative;
+    bottom: 160px;
+  }
+  body .section-2 .collection-container .collection {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .section-2 .collection-container .collection img {
+    width: 220px;
+    height: 161px;
+  }
+  body .section-2 .collection-container .collection .collection-description {
+    width: 282px;
+    height: 98px;
+  }
+  body .section-2 .collection-container .collection .collection-description h3 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 900;
+    color: #333D4B;
+    text-align: center;
+  }
+  body .section-2 .collection-container .collection .collection-description p {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #333D4B;
+    text-align: center;
+  }
+  body .section-3 {
+    max-width: 1280px;
+    width: 90%;
+    height: 500px;
+    background-color: #2C343E;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .section-3 .why-choose-us {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 10%;
+  }
+  body .section-3 .why-choose-us h1 {
+    font-size: 32px;
+    line-height: 28px;
+    font-weight: 900;
+    text-align: center;
+    color: #FEFCF7;
+  }
+  body .section-3 .why-choose-us p {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    text-align: center;
+    color: #FEFCF7;
+    width: 100%;
+  }
+  body .section-3 .why-choose-us-containers {
+    width: 95%;
+    position: relative;
+    top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body .section-3 .why-choose-us-containers .why-choose-us-container {
+    width: 350px;
+    height: 382px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0e8784;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  body .section-3 .why-choose-us-containers .why-choose-us-container img {
+    width: 72px;
+    height: 72px;
+  }
+  body .section-3 .why-choose-us-containers .why-choose-us-container .description {
+    width: 70%;
+  }
+  body .section-3 .why-choose-us-containers .why-choose-us-container .description h3 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    color: #FEFCF7;
+    text-align: center;
+  }
+  body .section-3 .why-choose-us-containers .why-choose-us-container .description p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #FEFCF7;
+    text-align: center;
+  }
+  body .section-4 {
+    max-width: 1280px;
+    width: 90%;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  body .section-4 h1 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 900;
+    text-align: center;
+    color: #83888F;
+  }
+  body .section-4 .line-container {
+    width: 760px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+  }
+  body .section-4 .line-container hr {
+    width: 760px;
+    border: 1px solid #fdd6ba;
+    position: absolute;
+    top: 20%;
+  }
+  body .section-4 .line-container .circle {
+    width: 31px;
+    height: 31px;
+    border: 1px solid #0e8784;
+    border-radius: 50%;
+  }
+  body .section-4 .how-is-work-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  body .section-4 .how-is-work-container .how-is-work-description {
+    height: 355px;
+    width: 285px;
+    margin-bottom: 50px;
+  }
+  body .section-4 .how-is-work-container .how-is-work-description h1 {
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: 900;
+    text-align: left;
+    color: #FDD6BA;
+  }
+  body .section-4 .how-is-work-container .how-is-work-description h3 {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 900;
+    text-align: left;
+  }
+  body .section-4 .how-is-work-container .how-is-work-description p {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    text-align: left;
+  }
+  body .section-4 button {
+    width: 217px;
+    height: 56px;
+    border-radius: 7px;
+    color: #FEFCF7;
+    background-color: #0e8784;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: "Fraunces", serif;
+  }
+  body .section-4 button:hover {
+    background-color: #66d2cf;
+  }
+  body .footer {
+    max-width: 1280px;
+    width: 90%;
+    height: 120px !important;
+    background-color: #2C343E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+  }
+  body .footer .brand-footer {
+    width: 217px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body .footer .brand-footer h1 {
+    font-size: 24px;
+    color: white;
+  }
+  body .footer .footer-lists {
+    width: 350px;
+    height: 93px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body .footer .footer-lists a {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.92;
+    text-transform: uppercase;
+    color: #83888F;
+  }
+  body .footer .footer-lists a:hover {
+    color: white;
+  }
+  body .footer .social-links {
+    width: 120px;
+    height: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+  }
+  body .footer .social-links i:hover {
+    opacity: 0.8;
+  }
+}
+@media screen and (min-width: 1440px) {
+  body .section-1 {
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  body .section-1 nav {
+    height: 60px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  body .section-1 nav .brand {
+    max-width: 163px;
+    width: 100%;
+    height: 18px;
+    display: flex;
+    align-items: center;
+  }
+  body .section-1 nav .brand img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  body .section-1 nav .brand h1 {
+    color: #333D4B;
+    font-size: 50px;
+    line-height: 20px;
+  }
+  body .section-1 nav .lists-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+  }
+  body .section-1 nav .lists-container .list {
+    text-transform: uppercase;
+    color: #83888F;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.92;
+  }
+  body .section-1 nav .lists-container .list:hover {
+    color: black;
+  }
+  body .section-1 nav .lists-container-2 {
+    position: absolute;
+    top: 50%;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
+    transform: rotate(180deg);
+    margin-top: 25px;
+    width: 100%;
+    height: 577px;
+    opacity: 0;
+    transition: opacity 500ms;
+    z-index: 5;
+    display: none;
+  }
+  body .section-1 nav .lists-container-2 .lists-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: rotate(180deg);
+    opacity: 0;
+  }
+  body .section-1 nav .lists-container-2 .lists-2 .list-2 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+  }
+  body .section-1 nav .hamburger-menu {
+    cursor: pointer;
+    display: none;
+  }
+  body .section-1 nav .x-menu {
+    position: absolute;
+    right: 0;
+    display: none;
+    cursor: pointer;
+    display: none;
+  }
+  body .section-1 .header {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    background: url("./assets/home/desktop/image-hero-coffeepress.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    border-radius: 10px;
+  }
+  body .section-1 .header .header-description {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    left: 80px;
+  }
+  body .section-1 .header .header-description h1 {
+    margin: 0;
+    width: 60%;
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: 900;
+    color: #FEFCF7;
+  }
+  body .section-1 .header .header-description p {
+    width: 60%;
+    height: 101px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #fefcf7;
+    margin: 0;
+    margin-top: 20px;
+  }
+  body .section-1 .header .header-description .btn {
+    width: 217px;
+    height: 56px;
+    border-radius: 7px;
+    color: #FEFCF7;
+    background-color: #0e8784;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: 0;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: "Fraunces", serif;
+  }
+  body .section-1 .header .header-description .btn:hover {
+    background-color: #66d2cf;
+  }
+  body .section-2 {
+    max-width: 1280px;
+    height: 400px;
+    width: 90%;
+    margin-top: 100px;
+    margin: 0 auto;
+  }
+  body .section-2 .collection-title {
+    width: 100%;
+    height: 196px;
+    margin: 0 auto;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+    z-index: 1;
+  }
+  body .section-2 .collection-title h1 {
+    font-size: 150px;
+    line-height: 72px;
+    font-weight: 900;
+    color: #838383;
+    z-index: -1;
+    position: relative;
+    top: 30px;
+    letter-spacing: 10px;
+  }
+  body .section-2 .collection-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 5;
+    position: relative;
+    bottom: 160px;
+  }
+  body .section-2 .collection-container .collection {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .section-2 .collection-container .collection img {
+    width: 255px;
+    height: 193px;
+  }
+  body .section-2 .collection-container .collection .collection-description {
+    width: 282px;
+    height: 98px;
+  }
+  body .section-2 .collection-container .collection .collection-description h3 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 900;
+    color: #333D4B;
+    text-align: center;
+  }
+  body .section-2 .collection-container .collection .collection-description p {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #333D4B;
+    text-align: center;
+  }
+  body .section-3 {
+    max-width: 1440px;
+    width: 90%;
+    height: 500px;
+    background-color: #2C343E;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .section-3 .why-choose-us {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 10%;
+  }
+  body .section-3 .why-choose-us h1 {
+    font-size: 32px;
+    line-height: 28px;
+    font-weight: 900;
+    text-align: center;
+    color: #FEFCF7;
+  }
+  body .section-3 .why-choose-us p {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    text-align: center;
+    color: #FEFCF7;
+    width: 100%;
+  }
+  body .section-3 .why-choose-us-containers {
+    width: 95%;
+    position: relative;
+    top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body .section-3 .why-choose-us-containers .why-choose-us-container {
+    width: 350px;
+    height: 382px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0e8784;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  body .section-3 .why-choose-us-containers .why-choose-us-container img {
+    width: 72px;
+    height: 72px;
+  }
+  body .section-3 .why-choose-us-containers .why-choose-us-container .description {
+    width: 70%;
+  }
+  body .section-3 .why-choose-us-containers .why-choose-us-container .description h3 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    color: #FEFCF7;
+    text-align: center;
+  }
+  body .section-3 .why-choose-us-containers .why-choose-us-container .description p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #FEFCF7;
+    text-align: center;
+  }
+  body .section-4 {
+    max-width: 1280px;
+    width: 90%;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  body .section-4 h1 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 900;
+    text-align: center;
+    color: #83888F;
+  }
+  body .section-4 .line-container {
+    width: 760px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+  }
+  body .section-4 .line-container hr {
+    width: 760px;
+    border: 1px solid #fdd6ba;
+    position: absolute;
+    top: 20%;
+  }
+  body .section-4 .line-container .circle {
+    width: 31px;
+    height: 31px;
+    border: 1px solid #0e8784;
+    border-radius: 50%;
+  }
+  body .section-4 .how-is-work-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  body .section-4 .how-is-work-container .how-is-work-description {
+    height: 355px;
+    width: 285px;
+    margin-bottom: 50px;
+  }
+  body .section-4 .how-is-work-container .how-is-work-description h1 {
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: 900;
+    text-align: left;
+    color: #FDD6BA;
+  }
+  body .section-4 .how-is-work-container .how-is-work-description h3 {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 900;
+    text-align: left;
+  }
+  body .section-4 .how-is-work-container .how-is-work-description p {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    text-align: left;
+  }
+  body .section-4 .btn {
+    width: 217px;
+    height: 56px;
+    border-radius: 7px;
+    color: #FEFCF7;
+    background-color: #0e8784;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: "Fraunces", serif;
+    cursor: pointer;
+  }
+  body .section-4 .btn:hover {
+    background-color: #66d2cf;
+  }
+  body .footer {
+    max-width: 1440px;
+    width: 90%;
+    height: 120px !important;
+    background-color: #2C343E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+  }
+  body .footer .brand-footer {
+    width: 217px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body .footer .brand-footer h1 {
+    font-size: 30px;
+    color: white;
+  }
+  body .footer .footer-lists {
+    width: 350px;
+    height: 93px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body .footer .footer-lists a {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.92;
+    text-transform: uppercase;
+    color: #83888F;
+  }
+  body .footer .footer-lists a:hover {
+    color: white;
+  }
+  body .footer .social-links {
+    width: 120px;
+    height: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+  }
+  body .footer .social-links i:hover {
+    opacity: 0.8;
+  }
+}/*# sourceMappingURL=style.css.map */
